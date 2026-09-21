@@ -1,7 +1,12 @@
+# Compiled COBOL executables: ignore every file with no extension
+*
+!*/
+!*.*
+
+# Other build output and local clutter
 *.o
 *.so
 *.dylib
-setupchk
 .venv/
 __pycache__/
 .DS_Store
